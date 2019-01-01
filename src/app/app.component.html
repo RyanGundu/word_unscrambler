@@ -1,20 +1,32 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="text-center">
+<h1>WORD</h1><h1>UNSCRAMBLER!</h1>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="search">
+  <app-search></app-search>
+</div>
+<div class="text-center">
+  <p class="info">If you notice any missing words please contact me at ryangundu@hotmail.com</p>
+  <p class="info">Swear words are not included!</p>
+  <a class="btn btn-outlined btn-theme btn-lg scoreBtn" data-wow-delay="0.7s" data-toggle="collapse" data-target="#scoreSystem" aria-expanded="false" aria-controls="scoreSystem">Score System</a>
+  <div class="collapse" id="scoreSystem">
+    <div class="text-center info">
+      <p>Blanks = 0 points</p>
+      <p>A,E,O,T,I,N,R,S,L,U = 1 point</p>  
+      <p> D,G = 2 points</p>
+      <p>C,M,B,P = 3 points</p>
+      <p>H,F,W,Y,V = 4 points</p>
+      <p>K = 5 points</p>
+      <p>J,X = 8 points</p>
+      <p>Q,Z = 10 points</p>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="text-center">Created by Ryan Gundu</div>
+</footer>
+
+
+
+
+
 

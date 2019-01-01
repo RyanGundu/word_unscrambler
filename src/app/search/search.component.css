@@ -1,0 +1,17 @@
+button {
+    background-color: white;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+label {
+    font: 10 20px/1.5 'Pacifico', Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+
+.results {
+    padding-left: 2%;
+    padding-right: 2%;  
+}
